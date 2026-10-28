@@ -21,6 +21,7 @@ import meta from "./meta.ts";
 import minimax from "./minimax.ts";
 import minimaxCn from "./minimax-cn.ts";
 import mistral from "./mistral.ts";
+import modular from "./modular.ts";
 import moonshotai from "./moonshotai.ts";
 import moonshotaiCn from "./moonshotai-cn.ts";
 import nvidia from "./nvidia.ts";
@@ -65,6 +66,7 @@ export const PROVIDERS: readonly ProviderDefinition[] = [
 	minimaxCn,
 	minimax,
 	mistral,
+	modular,
 	moonshotaiCn,
 	moonshotai,
 	nvidia,

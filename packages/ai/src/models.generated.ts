@@ -21,6 +21,7 @@ import { META_CLASSIFIER_MODELS, META_IMAGE_MODELS, META_MODELS } from "./provid
 import { MINIMAX_CLASSIFIER_MODELS, MINIMAX_IMAGE_MODELS, MINIMAX_MODELS } from "./providers/minimax.models.ts";
 import { MINIMAX_CN_CLASSIFIER_MODELS, MINIMAX_CN_IMAGE_MODELS, MINIMAX_CN_MODELS } from "./providers/minimax-cn.models.ts";
 import { MISTRAL_CLASSIFIER_MODELS, MISTRAL_IMAGE_MODELS, MISTRAL_MODELS } from "./providers/mistral.models.ts";
+import { MODULAR_CLASSIFIER_MODELS, MODULAR_IMAGE_MODELS, MODULAR_MODELS } from "./providers/modular.models.ts";
 import { MOONSHOTAI_CLASSIFIER_MODELS, MOONSHOTAI_IMAGE_MODELS, MOONSHOTAI_MODELS } from "./providers/moonshotai.models.ts";
 import { MOONSHOTAI_CN_CLASSIFIER_MODELS, MOONSHOTAI_CN_IMAGE_MODELS, MOONSHOTAI_CN_MODELS } from "./providers/moonshotai-cn.models.ts";
 import { NVIDIA_CLASSIFIER_MODELS, NVIDIA_IMAGE_MODELS, NVIDIA_MODELS } from "./providers/nvidia.models.ts";
@@ -65,6 +66,7 @@ export const MODELS: {
 	readonly "minimax": typeof MINIMAX_MODELS;
 	readonly "minimax-cn": typeof MINIMAX_CN_MODELS;
 	readonly "mistral": typeof MISTRAL_MODELS;
+	readonly "modular": typeof MODULAR_MODELS;
 	readonly "moonshotai": typeof MOONSHOTAI_MODELS;
 	readonly "moonshotai-cn": typeof MOONSHOTAI_CN_MODELS;
 	readonly "nvidia": typeof NVIDIA_MODELS;
@@ -108,6 +110,7 @@ export const MODELS: {
 	"minimax": MINIMAX_MODELS,
 	"minimax-cn": MINIMAX_CN_MODELS,
 	"mistral": MISTRAL_MODELS,
+	"modular": MODULAR_MODELS,
 	"moonshotai": MOONSHOTAI_MODELS,
 	"moonshotai-cn": MOONSHOTAI_CN_MODELS,
 	"nvidia": NVIDIA_MODELS,
@@ -153,6 +156,7 @@ export const IMAGE_MODELS: {
 	readonly "minimax": typeof MINIMAX_IMAGE_MODELS;
 	readonly "minimax-cn": typeof MINIMAX_CN_IMAGE_MODELS;
 	readonly "mistral": typeof MISTRAL_IMAGE_MODELS;
+	readonly "modular": typeof MODULAR_IMAGE_MODELS;
 	readonly "moonshotai": typeof MOONSHOTAI_IMAGE_MODELS;
 	readonly "moonshotai-cn": typeof MOONSHOTAI_CN_IMAGE_MODELS;
 	readonly "nvidia": typeof NVIDIA_IMAGE_MODELS;
@@ -196,6 +200,7 @@ export const IMAGE_MODELS: {
 	"minimax": MINIMAX_IMAGE_MODELS,
 	"minimax-cn": MINIMAX_CN_IMAGE_MODELS,
 	"mistral": MISTRAL_IMAGE_MODELS,
+	"modular": MODULAR_IMAGE_MODELS,
 	"moonshotai": MOONSHOTAI_IMAGE_MODELS,
 	"moonshotai-cn": MOONSHOTAI_CN_IMAGE_MODELS,
 	"nvidia": NVIDIA_IMAGE_MODELS,
@@ -241,6 +246,7 @@ export const CLASSIFIER_MODELS: {
 	readonly "minimax": typeof MINIMAX_CLASSIFIER_MODELS;
 	readonly "minimax-cn": typeof MINIMAX_CN_CLASSIFIER_MODELS;
 	readonly "mistral": typeof MISTRAL_CLASSIFIER_MODELS;
+	readonly "modular": typeof MODULAR_CLASSIFIER_MODELS;
 	readonly "moonshotai": typeof MOONSHOTAI_CLASSIFIER_MODELS;
 	readonly "moonshotai-cn": typeof MOONSHOTAI_CN_CLASSIFIER_MODELS;
 	readonly "nvidia": typeof NVIDIA_CLASSIFIER_MODELS;
@@ -284,6 +290,7 @@ export const CLASSIFIER_MODELS: {
 	"minimax": MINIMAX_CLASSIFIER_MODELS,
 	"minimax-cn": MINIMAX_CN_CLASSIFIER_MODELS,
 	"mistral": MISTRAL_CLASSIFIER_MODELS,
+	"modular": MODULAR_CLASSIFIER_MODELS,
 	"moonshotai": MOONSHOTAI_CLASSIFIER_MODELS,
 	"moonshotai-cn": MOONSHOTAI_CN_CLASSIFIER_MODELS,
 	"nvidia": NVIDIA_CLASSIFIER_MODELS,

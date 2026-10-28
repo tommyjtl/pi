@@ -1,3 +1,4 @@
+| Modular | `MODULAR_API_KEY` |
 # @earendil-works/pi-ai
 
 Unified LLM API with provider collections, automatic auth resolution, token and cost tracking, and simple context persistence and hand-off to other models mid-session.
@@ -83,6 +84,7 @@ Unified LLM API with provider collections, automatic auth resolution, token and 
 - **ZAI Coding Plan (Global)** (with separate China provider)
 - **MiniMax** (with separate China provider)
 - **Together AI**
+- **Modular**
 - **Baseten**
 - **Hugging Face**
 - **Moonshot AI** (with separate China provider)

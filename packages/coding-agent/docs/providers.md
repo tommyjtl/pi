@@ -1,3 +1,4 @@
+| Modular | `MODULAR_API_KEY` |
 # Providers
 
 Most hosted providers support one or both of these authentication methods:
