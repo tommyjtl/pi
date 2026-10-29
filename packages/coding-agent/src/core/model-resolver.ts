@@ -45,7 +45,7 @@ export const defaultModelPerProvider: Partial<Record<KnownProvider, string>> = {
 	huggingface: "moonshotai/Kimi-K2.6",
 	fireworks: "accounts/fireworks/models/kimi-k3",
 	together: "moonshotai/Kimi-K3",
-	modular: "MiniMaxAI/MiniMax-M3.1-Flash",
+	modular: "google/gemma-4-31b-it",
 	baseten: "zai-org/GLM-5.2",
 	opencode: "kimi-k2.6",
 	"opencode-go": "kimi-k3",
